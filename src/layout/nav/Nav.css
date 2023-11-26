@@ -1,0 +1,27 @@
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_link_active{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    color: black;
+}

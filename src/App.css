@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Products {
+  background-color: aqua;
+  width: 200px;
+  height: 250px;
+  padding: 2%;
+  margin: 2%;
+  border: 1px;
+  border-radius: 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.maindiv {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signup {
+  width: 100%;
+  height: 400px;
+  background-color: antiquewhite;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: aqua;
 }
 
-.App-link {
-  color: #61dafb;
+.wrapperdiv {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  background-color: dodgerblue;
+  width: 300px;
+  height: 400px;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+  display: flex;
+  gap: 20px;
+}
+
+.login {
+  display: flex;
+  gap: 15px;
+
+  width: 100%;
+  height: 87vh;
+}
+
+.sidebar{
+background-color: dodgerblue;
+width: 200px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: center;
+padding: 2%;
+gap: 2%;
+}
+
+.productss{
+  width: 100%;
+  height: 80%;
+
+  padding: 2%;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.signUp{
+background-color: rgb(61, 93, 124);
+  width: 150px;
+  height: 200px;
+  padding: 2%;
+  margin: 2%;
+  border: 1px;
+  border-radius: 2%;
+}
+
+.users{
+
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.each_user{
+  background-color: rgb(61, 93, 124);
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  border: 1px;
+  border-radius: 5px;
+  color: aliceblue;
+
 }
